@@ -6,7 +6,7 @@ username = input("What is your name? ")
 user_score = 0
 comp_score = 0
 
-
+# This function checks results from users choice
 def check_result_for_user(user):
     if user == 1:
         print("{} chose Rock 👊".format(username))
